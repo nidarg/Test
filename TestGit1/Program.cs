@@ -2,11 +2,16 @@
 
 namespace TestGit1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+        }
+
+        public static double Add(double x,double y)
+        {
+            return x + y;
         }
     }
 }
