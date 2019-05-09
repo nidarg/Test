@@ -9,8 +9,15 @@ namespace XUnitTestGit1
         [Fact]
         public void TestAddPass()
         {
-            double expected = 5;
+            double expected = 8;
             double actual = Program.Add(3, 5);
+            Assert.Equal(expected, actual);
+        }
+        [Fact]
+        public void TestMultiplyPass()
+        {
+            double expected = 8;
+            double actual = Program.Multiply(2, 4);
             Assert.Equal(expected, actual);
         }
     }
